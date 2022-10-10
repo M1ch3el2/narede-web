@@ -44,15 +44,15 @@ export const Login = () => {
   }
 
   return (
-    <div>
-      <header className="p-4 border-b border-red-300">
+    <div className="bg-green-600 min-h-screen">
+      <header className="p-4 border-b border-blue-800">
         <div className="container max-w-xl flex justify-center">
-          <img src="./imgs/logo.svg" className="w-32 md:w-40" />
+          <img src="./imgs/top.png" className="w-32 md:w-40" />
         </div>
       </header>
 
 
-      <main className="container max-w-xl p-4">
+      <main className="container max-w-xl p-4 bg-white rounded-3xl">
         <div className="p-4 flex space-x-4 items-center">
           <a href="/">
             <Icon name="back" className="h-6" />
@@ -82,7 +82,7 @@ export const Login = () => {
             onChange={formik.handleChange}
             onBlur={formik.handleBlur}
           />
-          <button type='submit' className="w-full text-center text-white bg-red-500 px-6 py-3 rounded-xl block disabled:opacity-50" disabled={!formik.isValid || formik.isSubmitting}>{formik.isSubmitting ? 'Entrando...' : 'Entrar'}</button>
+          <button type='submit' className="w-full text-center text-white bg-blue-800 hover:bg-blue-600 px-6 py-3 rounded-xl block disabled:opacity-50" disabled={!formik.isValid || formik.isSubmitting}>{formik.isSubmitting ? 'Entrando...' : 'Entrar'}</button>
 
         </form>
       </main>
