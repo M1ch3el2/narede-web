@@ -11,13 +11,13 @@ export function Home() {
 
   return (
     
-    <div className="min-h-screen bg-green-600 text-white p-20 flex flex-col items-center space-y-3">
+    <div className="min-h-screen bg-green-600 text-white p-10 flex flex-col items-center space-y-3">
 
     <header className="container flex justify-center max-w-5xl p-4">
     <img src="./imgs/top.png" className="w-80"/>
     </header>
 
-    <div className="container max-w-5xl  flex-1 p-4 flex flex-col items-center md:flex-row space-y-6 md:space-y-0 md:space-x-6">
+    <div className="container max-w-7xl  flex-1 p-9 flex flex-col items-center md:flex-row space-y-6 md:space-y-0 md:space-x-6">
 
 
       <div className="md:flex-1 flex justify-center">
