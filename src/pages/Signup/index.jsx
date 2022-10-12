@@ -27,7 +27,7 @@ export const Signup = () => {
         data: values
       })
 
-      console.log(res.data)
+      setAuth(res.data)
 
     },
     initialValues: {
