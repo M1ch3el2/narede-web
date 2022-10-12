@@ -60,9 +60,9 @@ export const Dashboard = () => {
   return (
     // O Fragment para quando temos vários elementos ele engloba tudo, vem do próprio React com um import { Fragment } from 'react', mas ele também entende apenas colocando <> e fechando no final com </>
     <>
-      <header className="bg-red-500 text-white">
+      <header className="bg-green-600 text-white">
         <div className="container max-w-3xl flex justify-between p-4">
-          <img src="./imgs/logo-black.svg" className="w-2832 md:w-40" />
+          <img src="./imgs/top.png" className="w-2832 md:w-40" />
           <a href={`/${auth?.user?.username}`}>
             <Icon name="profile" className="w-10" />
           </a>
