@@ -27,7 +27,7 @@ export const Signup = () => {
         data: values
       })
 
-      setAuth(res.data)
+      console.log(res.data)
 
     },
     initialValues: {
@@ -41,6 +41,10 @@ export const Signup = () => {
 
   if (auth?.user?.id) {
     return <Navigate to="/dashboard" replace={true} />
+  }
+
+  if (formik.isSubmitting) {
+    return <Navigate to="/login" replace={true} />
   }
 
   return (
