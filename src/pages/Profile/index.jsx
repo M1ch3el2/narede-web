@@ -68,9 +68,9 @@ export const Profile = () => {
         <div className="container max-w-3xl flex justify-between p-4">
           <img src="./imgs/top.png" className="w-2832 md:w-40" />
           {auth?.user?.id && (
-          <div onClick={logout} className="p-2 cursor-pointer">
-            Sair
-          </div>
+            <div onClick={logout} className="p-2 cursor-pointer hover:bg-transparent h-11 bg-blue-500 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-white rounded">
+              Sair
+            </div>
           )}
         </div>
       </header>
@@ -115,3 +115,7 @@ export const Profile = () => {
     </>
   )
 }
+
+
+
+
