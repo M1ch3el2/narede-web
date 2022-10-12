@@ -43,7 +43,7 @@ export const Signup = () => {
     return <Navigate to="/dashboard" replace={true} />
   }
 
-  if (formik.isSubmitting) {
+  if (formik.isSubmitting && formik.isValid) {
     return <Navigate to="/login" replace={true} />
   }
 
