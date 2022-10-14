@@ -62,7 +62,7 @@ export const Dashboard = () => {
     <div className="bg-gradient-to-r from-green-500 to-indigo-500 min-h-screen">
       <header className="bg-black text-white">
         <div className="container max-w-3xl flex justify-between p-4">
-          <img src="./imgs/top.png" className="w-2832 md:w-40" />
+          <img src="./imgs/top.png" className="w-40 md:w-40" />
           <a href={`/${auth?.user?.username}`}>
             <Icon name="profile" className="w-10" />
           </a>
