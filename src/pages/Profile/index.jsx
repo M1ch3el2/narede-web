@@ -66,7 +66,7 @@ export const Profile = () => {
     <div className="bg-gradient-to-r from-green-500 to-indigo-500 min-h-screen">
       <header className="bg-black text-white">
         <div className="container max-w-3xl flex justify-between p-4">
-          <img src="./imgs/top.png" className="w-2832 md:w-40" />
+          <img src="./imgs/top.png" className="w-40 md:w-40" />
           {auth?.user?.id && (
             <div onClick={logout} className="p-2 cursor-pointer hover:bg-transparent h-11 bg-blue-500 text-white font-semibold hover:text-white py-2 px-4 border border-white hover:border-white rounded">
               Sair
