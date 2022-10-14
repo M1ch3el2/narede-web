@@ -84,7 +84,7 @@ export const Profile = () => {
           </div>
         </section>
 
-        <section id="content" className="container max-w-3xl p-4 space-y-4 bg-white rounded">
+        <section id="content" className="container max-w-3xl p-4 space-y-4 bg-white rounded-3xl">
           <h2 className="text-blue-900 text-xl font-bold">Seus palpites</h2>
 
 

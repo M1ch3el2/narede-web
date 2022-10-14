@@ -59,8 +59,8 @@ export const Dashboard = () => {
 
   return (
     // O Fragment para quando temos vários elementos ele engloba tudo, vem do próprio React com um import { Fragment } from 'react', mas ele também entende apenas colocando <> e fechando no final com </>
-    <>
-      <header className="bg-green-600 text-white">
+    <div className="bg-gradient-to-r from-green-500 to-indigo-500 min-h-screen">
+      <header className="bg-black text-white">
         <div className="container max-w-3xl flex justify-between p-4">
           <img src="./imgs/top.png" className="w-2832 md:w-40" />
           <a href={`/${auth?.user?.username}`}>
@@ -70,14 +70,14 @@ export const Dashboard = () => {
       </header>
 
       <main className="space-y-6">
-        <section id="header" className="bg-green-600 text-white">
+        <section id="header" className="bg-black text-white">
           <div className="container max-w-3xl space-y-2 p-4">
             <span>{auth.user.name}</span>
             <h3 className="text-2xl font-bold">Qual é o seu palpite?</h3>
           </div>
         </section>
 
-        <section id="content" className="container max-w-3xl p-4 space-y-4">
+        <section id="content" className="container max-w-3xl p-4 space-y-4 bg-white rounded-3xl">
 
           <DateSelect currentDate={currentDate} onChange={setDate} />
 
@@ -104,6 +104,6 @@ export const Dashboard = () => {
         </section>
       </main>
 
-    </>
+    </div>
   )
 }
