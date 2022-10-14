@@ -11,7 +11,7 @@ export function Home() {
 
   return (
     
-    <div className="min-h-screen bg-green-600 text-white p-10 flex flex-col items-center space-y-3">
+    <div className="min-h-screen bg-emerakd-600 text-white p-10 flex flex-col items-center space-y-3">
 
     <header className="container flex justify-center max-w-5xl p-4">
     <img src="./imgs/top.png" className="w-80"/>

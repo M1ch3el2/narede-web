@@ -48,13 +48,13 @@ export const Signup = () => {
   }
 
   return (
-    <div className="bg-green-600 min-h-screen">
-      <header className="p-4 border-b border-blue-800">
+    <div className="bg-gradient-to-r from-green-500 to-indigo-500 min-h-screen">
+      <header className="p-4 border-b border-blue-800 bg-black">
         <div className="container max-w-xl flex justify-center">
           <img src="./imgs/top.png" className="w-32 md:w-40" />
         </div>
       </header>
-      <main className="container max-w-xl p-4 bg-white rounded-3xl">
+      <main className="container max-w-xl p-4 bg-white rounded-3xl mt-8">
         <div className="p-4 flex space-x-4 items-center">
           <a href="/">
             <Icon name="back" className="h-6" />

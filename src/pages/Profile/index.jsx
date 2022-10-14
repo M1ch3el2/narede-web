@@ -63,8 +63,8 @@ export const Profile = () => {
 
 
   return (
-    <>
-      <header className="bg-green-600 text-white">
+    <div className="bg-gradient-to-r from-green-500 to-indigo-500 min-h-screen">
+      <header className="bg-black text-white">
         <div className="container max-w-3xl flex justify-between p-4">
           <img src="./imgs/top.png" className="w-2832 md:w-40" />
           {auth?.user?.id && (
@@ -76,7 +76,7 @@ export const Profile = () => {
       </header>
 
       <main className="space-y-6">
-        <section id="header" className=" bg-green-600 text-white">
+        <section id="header" className=" bg-black text-white">
           <div className="container max-w-3xl space-y-2 p-4">
             <a href="/dashboard"><Icon name="back" className="w-10" />
             </a>
@@ -84,7 +84,7 @@ export const Profile = () => {
           </div>
         </section>
 
-        <section id="content" className="container max-w-3xl p-4 space-y-4">
+        <section id="content" className="container max-w-3xl p-4 space-y-4 bg-white rounded">
           <h2 className="text-blue-900 text-xl font-bold">Seus palpites</h2>
 
 
@@ -112,7 +112,7 @@ export const Profile = () => {
         </section>
       </main>
 
-    </>
+    </div>
   )
 }
 
