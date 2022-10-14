@@ -77,7 +77,7 @@ export const Profile = () => {
 
       <main className="space-y-6">
         <section id="header" className=" bg-black text-white">
-          <div className="container max-w-3xl space-y-2 p-4">
+          <div className="container max-w-3xl flex space-y-2 p-4">
             <a href="/dashboard"><Icon name="back" className="w-10" />
             </a>
             <h3 className="text-2xl font-bold">{user?.name}</h3>
